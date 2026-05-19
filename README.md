@@ -69,23 +69,48 @@ Backend / Data        -> Python, SQL, APIs, ETL, validation, dashboards, workflo
 
 ## Featured Engineering Work
 
-<div align="center">
-
-<a href="https://github.com/Srivatsa03/ECI-Pipeline">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srivatsa03&repo=ECI-Pipeline&theme=tokyonight&hide_border=true" alt="ECI Pipeline" />
-</a>
-<a href="https://github.com/Srivatsa03/fuzzbench">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srivatsa03&repo=fuzzbench&theme=tokyonight&hide_border=true" alt="FuzzBench" />
-</a>
-
-<a href="https://github.com/Srivatsa03/UICLaborDocsChatbot">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srivatsa03&repo=UICLaborDocsChatbot&theme=tokyonight&hide_border=true" alt="MetARAG" />
-</a>
-<a href="https://github.com/Srivatsa03/Movie-Recommendation">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srivatsa03&repo=Movie-Recommendation&theme=tokyonight&hide_border=true" alt="Movie Recommendation" />
-</a>
-
-</div>
+<table>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/Srivatsa03/ECI-Pipeline">ECI Pipeline</a></h3>
+      <p>DeltaRAG + Graph-RAG system that monitors Android ecosystem changes and generates evidence-backed risk tickets.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/Srivatsa03/fuzzbench">Bayesian Fuzzing Risk Pipeline</a></h3>
+      <p>Reproducible fuzzing infrastructure with Bayesian estimators for measuring residual software risk.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+        <img src="https://img.shields.io/badge/LLVM-262D3A?style=flat-square&logo=llvm&logoColor=white" alt="LLVM" />
+        <img src="https://img.shields.io/badge/FuzzBench-0F52BA?style=flat-square" alt="FuzzBench" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/Srivatsa03/UICLaborDocsChatbot">MetARAG</a></h3>
+      <p>Document intelligence platform for large PDF collections with metadata-enriched RAG and source-grounded answers.</p>
+      <p>
+        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square" alt="LangChain" />
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+        <img src="https://img.shields.io/badge/RAG-4DD0E1?style=flat-square" alt="RAG" />
+      </p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/Srivatsa03/Movie-Recommendation">Movie Recommendation MLOps</a></h3>
+      <p>Recommendation service with model training, API serving, Docker, CI/CD, monitoring, drift checks, and A/B testing.</p>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" alt="Jenkins" />
+        <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
