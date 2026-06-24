@@ -13,8 +13,8 @@ Right now I'm wrapping up my MS in Computer Science at the University of Illinoi
 I hold a granted patent, a handful of merged fixes in OSS frameworks you've probably imported, and a fairly strong opinion that observability is not optional.
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Srivatsa03&show_icons=true&include_all_commits=true&hide_rank=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Srivatsa03&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=00000000&hide=jupyter%20notebook,html,tex" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Srivatsa03&show_icons=true&include_all_commits=true&hide_rank=true&theme=tokyonight&hide_border=true&bg_color=00000000&v=2" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Srivatsa03&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=00000000&hide=jupyter%20notebook,html,tex&v=2" alt="Top languages" />
 </p>
 
 ## What I'm actually good at
@@ -28,10 +28,10 @@ I hold a granted patent, a handful of merged fixes in OSS frameworks you've prob
 
 <p align="center">
   <a href="https://github.com/Srivatsa03/ECI-Pipeline">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srivatsa03&repo=ECI-Pipeline&theme=tokyonight&hide_border=true&bg_color=00000000" alt="ECI Pipeline" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srivatsa03&repo=ECI-Pipeline&theme=tokyonight&hide_border=true&bg_color=00000000&v=2" alt="ECI Pipeline" />
   </a>
   <a href="https://github.com/Srivatsa03/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srivatsa03&repo=End-to-End-Kubernetes-Three-Tier-DevSecOps-Project&theme=tokyonight&hide_border=true&bg_color=00000000" alt="DevSecOps on EKS" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srivatsa03&repo=End-to-End-Kubernetes-Three-Tier-DevSecOps-Project&theme=tokyonight&hide_border=true&bg_color=00000000&v=2" alt="DevSecOps on EKS" />
   </a>
 </p>
 
