@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=800&color=26D0CE&center=true&vCenter=true&width=640&lines=Platform+%2B+AI+Engineer;I+make+infrastructure+boring+on+purpose;RAG+systems+that+cite+their+sources;Open-source+bug-fixer+in+48k%E2%98%85+repos" alt="Typing SVG" />
+  </a>
+</p>
+
 # Hi, I'm Srivatsa 👋
 
 I build the unglamorous half of software: the pipelines, the infrastructure, and the AI systems that have to keep working after the demo crowd goes home. Most of what I do lives in the gap between "it runs on my machine" and "it survives production at 3am."
@@ -5,6 +11,11 @@ I build the unglamorous half of software: the pipelines, the infrastructure, and
 Right now I'm wrapping up my MS in Computer Science at the University of Illinois Chicago (GPA 3.88), where I've spent two years split between research infrastructure and AI platform engineering. Before that I was an engineer at Mu Sigma, mostly resurrecting data pipelines people had quietly given up on.
 
 I hold a granted patent, a handful of merged fixes in OSS frameworks you've probably imported, and a fairly strong opinion that observability is not optional.
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Srivatsa03&show_icons=true&include_all_commits=true&hide_rank=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Srivatsa03&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=00000000&hide=jupyter%20notebook,html,tex" alt="Top languages" />
+</p>
 
 ## What I'm actually good at
 
@@ -14,6 +25,15 @@ I hold a granted patent, a handful of merged fixes in OSS frameworks you've prob
 - **Research infra:** reproducible fuzzing pipelines and Bayesian residual-risk estimators (yes, the real statistics kind).
 
 ## Things I've built (and will happily defend in an interview)
+
+<p align="center">
+  <a href="https://github.com/Srivatsa03/ECI-Pipeline">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srivatsa03&repo=ECI-Pipeline&theme=tokyonight&hide_border=true&bg_color=00000000" alt="ECI Pipeline" />
+  </a>
+  <a href="https://github.com/Srivatsa03/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Srivatsa03&repo=End-to-End-Kubernetes-Three-Tier-DevSecOps-Project&theme=tokyonight&hide_border=true&bg_color=00000000" alt="DevSecOps on EKS" />
+  </a>
+</p>
 
 **[ECI Pipeline](https://github.com/Srivatsa03/ECI-Pipeline)**: DeltaRAG + Graph-RAG that watches 10 live Android security and CVE feeds and writes evidence-backed risk tickets for fraud teams. 93% retrieval precision, sub-second monitoring dashboard. *(TransUnion industry capstone)*
 
@@ -44,14 +64,54 @@ Those repos that look like forks of LiteLLM, LlamaIndex, and Haystack? That's wh
 
 ## Tech I reach for
 
-```
-Languages     Python · JavaScript/TypeScript · Java · C++ · SQL · Scala
-Cloud & infra AWS · Azure · GCP · Kubernetes · Docker · Terraform · Ansible
-CI/CD         Jenkins · GitHub Actions · ArgoCD
-AI / ML       LangChain · OpenAI APIs · PyTorch · pgvector · RAG / Graph-RAG
-Backend       FastAPI · Node.js · React / Next.js · PostgreSQL · Redis
-Observability Prometheus · Grafana · Loki
-```
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Scala](https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white)
+
+**Cloud & DevOps**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+
+**AI / ML**
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**Backend & Data**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+
+## My GitHub, visualized
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Srivatsa03&theme=tokyo-night&hide_border=true&bg_color=00000000&custom_title=Contribution%20Activity)](https://github.com/Srivatsa03)
+
+![snake animation](https://raw.githubusercontent.com/Srivatsa03/Srivatsa03/output/github-snake-dark.svg)
+
+<!--
+  OPTIONAL streak card. Add back once you confirm your daily streak looks good:
+  <p align="center">
+    <img src="https://streak-stats.demolab.com?user=Srivatsa03&theme=tokyonight&hide_border=true&background=00000000" height="170" />
+  </p>
+-->
 
 ## One patent, for the curious
 
@@ -61,16 +121,8 @@ Observability Prometheus · Grafana · Loki
 
 I'm open to full-time **Software Engineering**, **Platform / Infrastructure**, and **AI Engineering** roles across the US.
 
-- 📧 **Email:** srivatsakamballa02@gmail.com
-- 💼 **LinkedIn:** [linkedin.com/in/srivatsa-kamballa](https://linkedin.com/in/srivatsa-kamballa)
-- 🌐 **Portfolio:** [srivatsa03.github.io/My-Portfolio](https://srivatsa03.github.io/My-Portfolio)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srivatsakamballa02@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srivatsa-kamballa)
+[![Portfolio](https://img.shields.io/badge/Portfolio-26D0CE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://srivatsa03.github.io/My-Portfolio)
 
 Email or a LinkedIn DM both work. I read both, and I actually reply.
-
-<!--
-  OPTIONAL: a stats card showcases your real commits, stars, and PRs.
-  It quietly counters the "1 follower, looks inactive" first impression.
-  Uncomment to use:
-
-  ![Srivatsa's GitHub stats](https://github-readme-stats.vercel.app/api?username=Srivatsa03&show_icons=true&hide_rank=true&include_all_commits=true)
--->
