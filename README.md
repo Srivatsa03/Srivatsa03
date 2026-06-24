@@ -15,24 +15,26 @@ I hold a granted patent, a handful of merged fixes in OSS frameworks you've prob
 
 ## Things I've built (and will happily defend in an interview)
 
-**[ECI Pipeline](https://github.com/Srivatsa03/ECI-Pipeline)** — DeltaRAG + Graph-RAG that watches 10 live Android security and CVE feeds and writes evidence-backed risk tickets for fraud teams. 93% retrieval precision, sub-second monitoring dashboard. *(TransUnion industry capstone)*
+**[ECI Pipeline](https://github.com/Srivatsa03/ECI-Pipeline)**: DeltaRAG + Graph-RAG that watches 10 live Android security and CVE feeds and writes evidence-backed risk tickets for fraud teams. 93% retrieval precision, sub-second monitoring dashboard. *(TransUnion industry capstone)*
 
-**MetARAG** — Document-intelligence platform: ask plain-English questions across 100+ GB of PDFs and get answers with their sources attached. 93% retrieval precision, 40% faster responses, built leading a team of 5. *(CCC Intelligent Solutions capstone, code under NDA)*
+**MetARAG**: Document-intelligence platform: ask plain-English questions across 100+ GB of PDFs and get answers with their sources attached. 93% retrieval precision, 40% faster responses, built leading a team of 5. *(CCC Intelligent Solutions capstone, code under NDA)*
 
-**[End-to-End DevSecOps on EKS](https://github.com/Srivatsa03/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project)** — An 8-microservice platform on AWS EKS with Jenkins + ArgoCD and Trivy/SonarQube security gates. Handles 500+ req/sec with zero-downtime deploys.
+**[End-to-End DevSecOps on EKS](https://github.com/Srivatsa03/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project)**: An 8-microservice platform on AWS EKS with Jenkins + ArgoCD and Trivy/SonarQube security gates. Handles 500+ req/sec with zero-downtime deploys.
 
-**[Movie Recommendation MLOps](https://github.com/Srivatsa03/Movie-Recommendation)** — The full lifecycle, not just a notebook: training, serving, A/B tests, drift detection, and Prometheus/Grafana dashboards. RMSE 0.58.
+**[Movie Recommendation MLOps](https://github.com/Srivatsa03/Movie-Recommendation)**: The full lifecycle, not just a notebook: training, serving, A/B tests, drift detection, and Prometheus/Grafana dashboards. RMSE 0.58.
 
-**[CoT vs Answer-Only on CLEVR](https://github.com/Srivatsa03/Chain-of-Thought-on-CLEVR-)** — Fine-tuned BLIP-2 with LoRA on an NVIDIA L40S, pushing accuracy from 8.75% zero-shot to 45.95%, then mapped exactly where chain-of-thought helps reasoning and where it quietly hurts.
+**[CoT vs Answer-Only on CLEVR](https://github.com/Srivatsa03/Chain-of-Thought-on-CLEVR)**: Fine-tuned BLIP-2 with LoRA on an NVIDIA L40S, pushing accuracy from 8.75% zero-shot to 45.95%, then mapped exactly where chain-of-thought helps reasoning and where it quietly hurts.
+
+**[Counterfactual Fact Verification](https://github.com/Srivatsa03/Counterfactual_Fact_Checking)**: Zero-shot fact-checking on FEVER with local quantized LLMs (Phi-3 Mini, Llama 3.1 8B, Mistral 7B). I generate counterfactual claim variants across complexity tiers to test where small models stay honest and where they break. *(ongoing research)*
 
 ## Open source
 
 Those repos that look like forks of LiteLLM, LlamaIndex, and Haystack? That's where I actually fixed things. I like finding the bug everyone else scrolled past.
 
-- **[Haystack](https://github.com/deepset-ai/haystack/pull/11670)** (20k★) — silenced noisy ERROR logs that fired on empty inputs. *PR #11670, merged.*
-- **[LiteLLM](https://github.com/BerriAI/litellm/pull/30764)** (48k★) — fixed a masker that leaked short secrets (8 chars or fewer) straight into logs and the admin UI. *PR #30764, merged.*
-- **[LiteLLM](https://github.com/BerriAI/litellm/pull/29693)** (48k★) — corrected a 10x embedding-pricing error that was inflating everyone's cost reports. *PR #29693, merged.*
-- **[LlamaIndex](https://github.com/run-llama/llama_index/pull/22046)** — fixed silent data loss where all but the last chunk of a document was dropped on upsert. *PR #22046, open / under review.*
+- **[Haystack](https://github.com/deepset-ai/haystack/pull/11670)** (20k★): silenced noisy ERROR logs that fired on empty inputs. *PR #11670, merged.*
+- **[LiteLLM](https://github.com/BerriAI/litellm/pull/30764)** (48k★): fixed a masker that leaked short secrets (8 chars or fewer) straight into logs and the admin UI. *PR #30764, merged.*
+- **[LiteLLM](https://github.com/BerriAI/litellm/pull/29693)** (48k★): corrected a 10x embedding-pricing error that was inflating everyone's cost reports. *PR #29693, merged.*
+- **[LlamaIndex](https://github.com/run-llama/llama_index/pull/22046)**: fixed silent data loss where all but the last chunk of a document was dropped on upsert. *PR #22046, open / under review.*
 
 ## What I'm building right now
 
