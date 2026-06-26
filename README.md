@@ -26,6 +26,8 @@ I hold a granted patent, a handful of merged fixes in OSS frameworks you've prob
 
 ## Things I've built (and will happily defend in an interview)
 
+**[rag-redteam](https://github.com/Srivatsa03/rag-redteam)**: Red-teams your RAG pipeline for the attacks eval frameworks miss, indirect prompt injection, source-document leakage, and cross-document instruction smuggling. Runs as a CLI or GitHub Action and fails CI when your pipeline is exploitable. Sits in the gap between RAG eval (RAGAS/DeepEval) and LLM scanners (garak).
+
 **[ECI Pipeline](https://github.com/Srivatsa03/ECI-Pipeline)**: DeltaRAG + Graph-RAG that watches 10 live Android security and CVE feeds and writes evidence-backed risk tickets for fraud teams. 93% retrieval precision, sub-second monitoring dashboard. *(TransUnion industry capstone)*
 
 **MetARAG**: Document-intelligence platform: ask plain-English questions across 100+ GB of PDFs and get answers with their sources attached. 93% retrieval precision, 40% faster responses, built leading a team of 5. *(CCC Intelligent Solutions capstone, code under NDA)*
