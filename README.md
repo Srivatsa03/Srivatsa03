@@ -42,12 +42,13 @@ I hold a granted patent, a handful of merged fixes in OSS frameworks you've prob
 
 ## Open source
 
-Those repos that look like forks of LiteLLM, LlamaIndex, and Haystack? That's where I actually fixed things. I like finding the bug everyone else scrolled past.
+Those repos that look like forks of Pydantic, LiteLLM, LlamaIndex, and Haystack? That's where I actually fixed things. I like finding the bug everyone else scrolled past.
 
-- **[Haystack](https://github.com/deepset-ai/haystack/pull/11670)** (20k★): silenced noisy ERROR logs that fired on empty inputs. *PR #11670, merged.*
-- **[LiteLLM](https://github.com/BerriAI/litellm/pull/30764)** (48k★): fixed a masker that leaked short secrets (8 chars or fewer) straight into logs and the admin UI. *PR #30764, merged.*
-- **[LiteLLM](https://github.com/BerriAI/litellm/pull/29693)** (48k★): corrected a 10x embedding-pricing error that was inflating everyone's cost reports. *PR #29693, merged.*
-- **[LlamaIndex](https://github.com/run-llama/llama_index/pull/22046)**: fixed silent data loss where all but the last chunk of a document was dropped on upsert. *PR #22046, open / under review.*
+- **[Pydantic](https://github.com/pydantic/pydantic/pull/13374)** (28k★): fixed a bug where a `json_schema_extra` dict was silently dropped, and JSON-schema generation could crash, when a callable followed it in an `Annotated` type. *PR #13374, merged.*
+- **[Haystack](https://github.com/deepset-ai/haystack/pull/11670)** (26k★): silenced noisy ERROR logs that fired on empty inputs. *PR #11670, merged.*
+- **[LiteLLM](https://github.com/BerriAI/litellm/pull/30764)** (53k★): fixed a masker that leaked short secrets (8 chars or fewer) straight into logs and the admin UI. *PR #30764, merged.*
+- **[LiteLLM](https://github.com/BerriAI/litellm/pull/29693)** (53k★): corrected a 10x embedding-pricing error that was inflating everyone's cost reports. *PR #29693, merged.*
+- **[LlamaIndex](https://github.com/run-llama/llama_index/pull/22133)** (51k★): fixed silent data loss where all but the last chunk of a document was dropped on upsert. *PR #22133, open / under review.*
 
 ## What I'm building right now
 
