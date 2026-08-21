@@ -28,6 +28,8 @@ I hold a granted patent, a handful of merged fixes in OSS frameworks you've prob
 
 **[rag-redteam](https://github.com/Srivatsa03/rag-redteam)**: Red-teams your RAG pipeline for the attacks eval frameworks miss, indirect prompt injection, source-document leakage, and cross-document instruction smuggling. Runs as a CLI or GitHub Action and fails CI when your pipeline is exploitable. Sits in the gap between RAG eval (RAGAS/DeepEval) and LLM scanners (garak).
 
+**[kubemend](https://github.com/Srivatsa03/kubemend)**: A Kubernetes remediation agent whose only write surface is a git commit, so undoing it is `git revert` rather than a rollback subsystem you hope works mid-incident. Six typed, reversible actions with a blast radius you can compute before it runs, held behind review and scoped to Deployments. Ships with a published threat model, evaluation, and findings report, and zero runtime dependencies.
+
 **[ECI Pipeline](https://github.com/Srivatsa03/ECI-Pipeline)**: DeltaRAG + Graph-RAG that watches 10 live Android security and CVE feeds and writes evidence-backed risk tickets for fraud teams. 93% retrieval precision, sub-second monitoring dashboard. *(TransUnion industry capstone)*
 
 **MetARAG**: Document-intelligence platform: ask plain-English questions across 100+ GB of PDFs and get answers with their sources attached. 93% retrieval precision, 40% faster responses, built leading a team of 5. *(CCC Intelligent Solutions capstone, code under NDA)*
@@ -48,7 +50,7 @@ Those repos that look like forks of Pydantic, LiteLLM, LlamaIndex, and Haystack?
 - **[Haystack](https://github.com/deepset-ai/haystack/pull/11670)** (26k★): silenced noisy ERROR logs that fired on empty inputs. *PR #11670, merged.*
 - **[LiteLLM](https://github.com/BerriAI/litellm/pull/30764)** (53k★): fixed a masker that leaked short secrets (8 chars or fewer) straight into logs and the admin UI. *PR #30764, merged.*
 - **[LiteLLM](https://github.com/BerriAI/litellm/pull/29693)** (53k★): corrected a 10x embedding-pricing error that was inflating everyone's cost reports. *PR #29693, merged.*
-- **[LlamaIndex](https://github.com/run-llama/llama_index/pull/22133)** (51k★): fixed silent data loss where all but the last chunk of a document was dropped on upsert. *PR #22133, open / under review.*
+- **[LlamaIndex](https://github.com/run-llama/llama_index/pull/22133)** (51k★): fixed silent data loss where all but the last chunk of a document was dropped on upsert. *PR #22133, merged.*
 
 ## What I'm building right now
 
@@ -117,6 +119,6 @@ I'm open to full-time **Software Engineering**, **Platform / Infrastructure**, a
 
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srivatsakamballa02@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srivatsa-kamballa)
-[![Portfolio](https://img.shields.io/badge/Portfolio-26D0CE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://srivatsa03.github.io/My-Portfolio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-26D0CE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://srivatsa-kamballa.vercel.app)
 
 Email or a LinkedIn DM both work. I read both, and I actually reply.
