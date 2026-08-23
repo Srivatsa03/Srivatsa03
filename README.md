@@ -4,7 +4,7 @@
      Regenerate:
        rembg i assets/profile.jpg assets/profile-cutout.png
        python scripts/dotify.py assets/profile-cutout.png -o assets/portrait --cols 110 --equalize --detail 0.6 --color --reveal -->
-<img src="assets/portrait.svg" width="300" alt="Srivatsa Kamballa, rendered as a dot matrix">
+<img src="assets/portrait-hd.svg" width="300" alt="Srivatsa Kamballa, rendered as a dot matrix">
 
 <br>
 
