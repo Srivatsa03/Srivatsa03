@@ -1,9 +1,10 @@
 <div align="center">
 
-<!-- PORTRAIT - colored dot-matrix cutout, subject only on a transparent ground.
-     Regenerate with:
+<!-- PORTRAIT - warm-duotone dot-matrix cutout, subject only, shimmer animated.
+     Regenerate:
        rembg i assets/profile.jpg assets/profile-cutout.png
-       python scripts/dotify.py assets/profile-cutout.png -o assets/portrait --cols 100 --equalize --detail 0.5 --color -->
+       (warm-tint the cutout luminance to amber -> assets/profile-warm.png)
+       python scripts/dotify.py assets/profile-warm.png -o assets/portrait --cols 100 --equalize --detail 0.5 --color --animate -->
 <img src="assets/portrait.svg" width="300" alt="Srivatsa Kamballa, rendered as a dot matrix">
 
 <br>
