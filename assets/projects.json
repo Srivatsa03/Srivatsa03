@@ -1,0 +1,21 @@
+{
+  "_comment": "Featured repos, in README order. Stars/forks/language come live from the API on every run; the description here overrides the repo's GitHub description.",
+  "projects": [
+    {
+      "repo": "rag-redteam",
+      "description": "Red-teams RAG pipelines for the attacks eval frameworks miss: indirect prompt injection, source-document leakage, and cross-document smuggling. Runs as a CLI and a CI gate."
+    },
+    {
+      "repo": "kubemend",
+      "description": "A Kubernetes remediation agent whose only write surface is a git commit, so undoing it is git revert. Six typed, reversible actions with a computable blast radius."
+    },
+    {
+      "repo": "ECI-Pipeline",
+      "description": "A DeltaRAG and Graph-RAG platform turning 10 live Android security and CVE feeds into evidence-backed risk tickets with a Sentinel scoring agent."
+    },
+    {
+      "repo": "End-to-End-Kubernetes-Three-Tier-DevSecOps-Project",
+      "description": "An 8-microservice platform on AWS EKS with zero-downtime deploys, automated with Jenkins and ArgoCD behind Trivy and SonarQube security gates."
+    }
+  ]
+}

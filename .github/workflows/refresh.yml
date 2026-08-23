@@ -1,0 +1,36 @@
+name: Refresh profile assets
+
+# Regenerates the skill/language radars and the stat + project cards from live
+# GitHub data. Uses the built-in GITHUB_TOKEN, so no personal token is needed.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # every Monday, 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --quiet Pillow
+      - name: Regenerate radars and cards
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/radar.py --data assets/skills.json -o assets/radar
+          python scripts/radar.py --github "${{ github.repository_owner }}" -o assets/radar-langs
+          python scripts/cards.py --user "${{ github.repository_owner }}" --out assets --projects assets/projects.json
+      - name: Commit if changed
+        run: |
+          git config user.name "Srivatsa Kamballa"
+          git config user.email "skamb10@uic.edu"
+          git add assets/radar*.svg assets/card-*.svg
+          git diff --cached --quiet || git commit -m "Refresh radars and stat/project cards"
+          git push

@@ -1,0 +1,13 @@
+{
+  "title": "Skill Radar",
+  "_comment": "Self-rated, 0-100. Edit freely; 5-8 axes reads best.",
+  "axes": [
+    { "label": "Python",             "value": 92 },
+    { "label": "AI / ML",            "value": 85 },
+    { "label": "Cloud / DevOps",     "value": 88 },
+    { "label": "Backend / API",      "value": 84 },
+    { "label": "Data",               "value": 80 },
+    { "label": "Systems / Research", "value": 82 },
+    { "label": "Frontend",           "value": 70 }
+  ]
+}
