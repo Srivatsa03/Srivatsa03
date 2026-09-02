@@ -10,7 +10,7 @@
 
 <!-- NAME / TAGLINE - animated typing -->
 <a href="https://github.com/Srivatsa03">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=580&lines=Srivatsa+Kamballa;Platform+%2B+AI+Engineer;I+break+what+I+build;Open-source+bug-fixer+in+190k%2B%E2%98%85+repos" alt="typing banner">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=580&lines=Srivatsa+Kamballa;Platform+%2B+AI+Engineer;I+break+what+I+build;Open-source+bug-fixer+in+164k%2B%E2%98%85+repos" alt="typing banner">
 </a>
 
 <br>
@@ -39,7 +39,7 @@ Hi, I'm **Srivatsa Kamballa**. I build the unglamorous half of software: the pip
 - Portfolio: **[srivatsa-kamballa.vercel.app](https://srivatsa-kamballa.vercel.app)**
 - MS Computer Science **@ University of Illinois Chicago** (GPA 3.88)
 - Open to full-time **Software**, **Platform / Infrastructure**, and **AI Engineering** roles across the US
-- Fun fact: **I fix the bugs everyone else scrolled past** in libraries you already import (7 merged PRs across Pydantic, LiteLLM, LlamaIndex, Haystack)
+- Fun fact: **I fix the bugs everyone else scrolled past** in libraries you already import (10 merged PRs across Pydantic, LiteLLM, LlamaIndex, Haystack)
 
 <br>
 
@@ -189,13 +189,16 @@ Hi, I'm **Srivatsa Kamballa**. I build the unglamorous half of software: the pip
 
 ## `~/` open source
 
-Those repos that look like forks of **Pydantic**, **LiteLLM**, **LlamaIndex**, and **Haystack**? That's where I actually fixed things. I like finding the bug everyone else scrolled past.
+Those repos that look like forks of **LiteLLM**, **LlamaIndex**, **Pydantic**, and **Haystack**? That's where I actually fixed things. **10 merged, 3 open** so far.
 
-- **[Pydantic](https://github.com/pydantic/pydantic/pull/13374)** (28k star): a `json_schema_extra` dict was silently dropped, and schema generation could crash, when a callable followed it in an `Annotated` type. *PR #13374, merged.*
-- **[LiteLLM](https://github.com/BerriAI/litellm/pull/30764)** (53k star): a masker leaked short secrets (8 chars or fewer) straight into logs and the admin UI. *PR #30764, merged.*
+- **[LiteLLM](https://github.com/BerriAI/litellm/pull/31725)** (57k star): shipped time-based off-peak pricing in the cost engine, a backward-compatible feature on a core billing path. Caught an equal-ended window silently billing standard rates around the clock, and escalated the schema to maintainers rather than guess. *PR #31725, +1,039/-25, merged.*
+- **[LiteLLM](https://github.com/BerriAI/litellm/pull/37407)** (57k star): fixed double-billing when cached and image tokens overlapped on multimodal requests. *PR #37407, merged.*
 - **[LlamaIndex](https://github.com/run-llama/llama_index/pull/22133)** (51k star): silent data loss where all but the last chunk of a document was dropped on upsert. *PR #22133, merged.*
-- **[LiteLLM](https://github.com/BerriAI/litellm/pull/29693)** (53k star): a 10x embedding-pricing error that was inflating everyone's cost reports. *PR #29693, merged.*
-- **[Haystack](https://github.com/deepset-ai/haystack/pull/11670)** (26k star): silenced noisy ERROR logs that fired on empty inputs. *PR #11670, merged.*
+- **[Pydantic](https://github.com/pydantic/pydantic/pull/13374)** (28k star): a `json_schema_extra` dict was silently dropped, and schema generation could crash, when a callable followed it in an `Annotated` type. *PR #13374, merged, maintainer-approved.*
+- **[LiteLLM](https://github.com/BerriAI/litellm/pull/30764)** (57k star): a masker leaked short secrets (8 chars or fewer) into logs and the admin UI. *PR #30764, merged.*
+- **[Haystack](https://github.com/deepset-ai/haystack/pull/11670)** (26k star): silenced noisy ERROR logs on empty inputs, plus authored the OpenSearch and Elasticsearch SQL-retriever docs. *PR #11670, #11543, #11494, merged.*
+
+Plus the 10x embedding-pricing fix (#29693), a None-metadata crash fix in LlamaIndex (#22773), and 3 open PRs across LiteLLM and DSPy.
 
 ---
 
