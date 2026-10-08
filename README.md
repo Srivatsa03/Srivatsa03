@@ -10,7 +10,7 @@
 
 <!-- NAME / TAGLINE - animated typing -->
 <a href="https://github.com/Srivatsa03">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=580&lines=Srivatsa+Kamballa;Platform+%2B+AI+Engineer;I+break+what+I+build;Open-source+bug-fixer+in+164k%2B%E2%98%85+repos" alt="typing banner">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=580&lines=Srivatsa+Kamballa;Platform+%2B+AI+Engineer;10+merged+open-source+PRs;AWS+Certified+Solutions+Architect" alt="typing banner">
 </a>
 
 <br>
@@ -20,8 +20,6 @@
 <a href="mailto:srivatsakamballa02@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 <a href="https://srivatsa-kamballa.vercel.app"><img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
 <a href="https://github.com/Srivatsa03"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-
-<img src="https://komarev.com/ghpvc/?username=Srivatsa03&style=flat&color=39d353&label=profile+views" alt="profile views">
 
 </div>
 
@@ -47,7 +45,7 @@ Hi, I'm **Srivatsa Kamballa**. I build the unglamorous half of software: the pip
 
 ## `~/` toolbox
 
-<img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,nodejs,fastapi,tailwind,postgres,redis,docker,kubernetes,aws,azure,terraform,pytorch,git,github,linux,bash&perline=10" alt="tech stack">
+<img src="https://skillicons.dev/icons?i=py,ts,fastapi,pytorch,docker,kubernetes,aws,terraform&perline=8" alt="tech stack">
 
 </div>
 
@@ -55,32 +53,14 @@ Hi, I'm **Srivatsa Kamballa**. I build the unglamorous half of software: the pip
 
 <div align="center">
 
-## `~/` skill radar
-
-<table>
-<tr>
-<td width="50%" align="center" valign="middle">
-
-<!-- Self-rated radar - edit assets/skills.json, scripts/radar.py redraws it -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
-  <img src="assets/radar-dark.svg" width="400" alt="skill radar chart">
-</picture>
-
-</td>
-<td width="50%" align="center" valign="middle">
+## `~/` language radar
 
 <!-- Live radar from real language byte counts across the public repos -->
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-langs-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
-  <img src="assets/radar-langs-dark.svg" width="400" alt="language radar chart">
+  <img src="assets/radar-langs-dark.svg" width="440" alt="language radar chart">
 </picture>
-
-</td>
-</tr>
-</table>
 
 </div>
 
@@ -116,10 +96,6 @@ Hi, I'm **Srivatsa Kamballa**. I build the unglamorous half of software: the pip
   <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
   <img src="assets/card-stats-dark.svg" width="480" alt="GitHub statistics">
 </picture>
-
-<br><br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Srivatsa03&theme=matrix&no-frame=true&no-bg=true&column=7&margin-w=4" alt="achievements">
 
 </div>
 
