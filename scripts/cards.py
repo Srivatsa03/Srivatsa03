@@ -338,7 +338,8 @@ def main(argv=None):
             print(f"  !! {entry['repo']} not found on the account, skipped")
             continue
         card = {
-            "name": src["name"],
+            # An optional short title for repos whose names don't fit the card.
+            "name": entry.get("title") or src["name"],
             "description": entry.get("description") or src.get("description"),
             "language": entry.get("language") or src.get("language"),
             "stars": src["stargazers_count"],

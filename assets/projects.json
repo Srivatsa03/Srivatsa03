@@ -6,16 +6,42 @@
       "description": "Red-teams RAG pipelines for the attacks eval frameworks miss: indirect prompt injection, source-document leakage, and cross-document smuggling. Runs as a CLI and a CI gate."
     },
     {
+      "repo": "minja-repro",
+      "description": "An independent reimplementation of MINJA, a query-only memory-injection attack on LLM agents, with recomputed confidence intervals and a first real-model run."
+    },
+    {
       "repo": "kubemend",
-      "description": "A Kubernetes remediation agent whose only write surface is a git commit, so undoing it is git revert. Six typed, reversible actions with a computable blast radius."
+      "description": "Kubernetes remediation with no cluster credentials. Its only write is a git commit, so undoing a fix is git revert. Six typed, reversible actions behind a policy gate."
     },
     {
       "repo": "ECI-Pipeline",
-      "description": "A DeltaRAG and Graph-RAG platform turning 10 live Android security and CVE feeds into evidence-backed risk tickets with a Sentinel scoring agent."
+      "description": "Watches Android security, CVE and policy feeds, diffs what changed, and turns the significant changes into cited risk tickets. Team capstone with TransUnion."
+    },
+    {
+      "repo": "Chain-of-Thought-on-CLEVR",
+      "description": "BLIP-2 + LoRA on CLEVR. Fine-tuning lifted accuracy from 8.75% zero-shot to 45.95%, and chain-of-thought supervision hurt on long reasoning chains."
+    },
+    {
+      "repo": "Counterfactual_Fact_Checking",
+      "description": "How small local LLMs verify FEVER claims with and without evidence, and how often hand-written counterfactuals fool them. Team course project."
+    },
+    {
+      "repo": "Movie-Recommendation",
+      "description": "Team MLOps project: an SVD++ recommender on FastAPI with model routing, per-request provenance logging, data checks and CI.",
+      "language": "Python"
     },
     {
       "repo": "End-to-End-Kubernetes-Three-Tier-DevSecOps-Project",
-      "description": "An 8-microservice platform on AWS EKS with zero-downtime deploys, automated with Jenkins and ArgoCD behind Trivy and SonarQube security gates."
+      "description": "My Terraform, Jenkins, SonarQube, Trivy and ECR pipeline deploying a community three-tier app to AWS EKS behind an ALB ingress.",
+      "title": "DevSecOps on AWS EKS"
+    },
+    {
+      "repo": "WuzzyFuzz-03",
+      "description": "A fuzzy-logic language embedded in Scala 3: fuzzy sets, gates, immutable scopes, classes and partial evaluation."
+    },
+    {
+      "repo": "Telegram-MTproto2.0",
+      "description": "A chat app with MTProto 2.0-style server-side encryption and an end-to-end encrypted Diffie-Hellman secret chat in the browser."
     }
   ]
 }

@@ -117,6 +117,17 @@ Hi, I'm **Srivatsa Kamballa**. I build the unglamorous half of software: the pip
   </a>
 </td>
 <td>
+  <a href="https://github.com/Srivatsa03/minja-repro">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-minja-repro-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/card-minja-repro-light.svg">
+      <img src="assets/card-minja-repro-dark.svg" width="420" alt="minja-repro">
+    </picture>
+  </a>
+</td>
+</tr>
+<tr>
+<td>
   <a href="https://github.com/Srivatsa03/kubemend">
     <picture>
       <source media="(prefers-color-scheme: dark)"  srcset="assets/card-kubemend-dark.svg">
@@ -125,8 +136,6 @@ Hi, I'm **Srivatsa Kamballa**. I build the unglamorous half of software: the pip
     </picture>
   </a>
 </td>
-</tr>
-<tr>
 <td>
   <a href="https://github.com/Srivatsa03/ECI-Pipeline">
     <picture>
@@ -136,17 +145,70 @@ Hi, I'm **Srivatsa Kamballa**. I build the unglamorous half of software: the pip
     </picture>
   </a>
 </td>
+</tr>
+<tr>
+<td>
+  <a href="https://github.com/Srivatsa03/Chain-of-Thought-on-CLEVR">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-Chain-of-Thought-on-CLEVR-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/card-Chain-of-Thought-on-CLEVR-light.svg">
+      <img src="assets/card-Chain-of-Thought-on-CLEVR-dark.svg" width="420" alt="Chain-of-Thought-on-CLEVR">
+    </picture>
+  </a>
+</td>
+<td>
+  <a href="https://github.com/Srivatsa03/Counterfactual_Fact_Checking">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-Counterfactual_Fact_Checking-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/card-Counterfactual_Fact_Checking-light.svg">
+      <img src="assets/card-Counterfactual_Fact_Checking-dark.svg" width="420" alt="Counterfactual_Fact_Checking">
+    </picture>
+  </a>
+</td>
+</tr>
+<tr>
+<td>
+  <a href="https://github.com/Srivatsa03/Movie-Recommendation">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-Movie-Recommendation-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/card-Movie-Recommendation-light.svg">
+      <img src="assets/card-Movie-Recommendation-dark.svg" width="420" alt="Movie-Recommendation">
+    </picture>
+  </a>
+</td>
 <td>
   <a href="https://github.com/Srivatsa03/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project">
     <picture>
       <source media="(prefers-color-scheme: dark)"  srcset="assets/card-End-to-End-Kubernetes-Three-Tier-DevSecOps-Project-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/card-End-to-End-Kubernetes-Three-Tier-DevSecOps-Project-light.svg">
-      <img src="assets/card-End-to-End-Kubernetes-Three-Tier-DevSecOps-Project-dark.svg" width="420" alt="DevSecOps on EKS">
+      <img src="assets/card-End-to-End-Kubernetes-Three-Tier-DevSecOps-Project-dark.svg" width="420" alt="DevSecOps on AWS EKS">
+    </picture>
+  </a>
+</td>
+</tr>
+<tr>
+<td>
+  <a href="https://github.com/Srivatsa03/WuzzyFuzz-03">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-WuzzyFuzz-03-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/card-WuzzyFuzz-03-light.svg">
+      <img src="assets/card-WuzzyFuzz-03-dark.svg" width="420" alt="WuzzyFuzz-03">
+    </picture>
+  </a>
+</td>
+<td>
+  <a href="https://github.com/Srivatsa03/Telegram-MTproto2.0">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-Telegram-MTproto2.0-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/card-Telegram-MTproto2.0-light.svg">
+      <img src="assets/card-Telegram-MTproto2.0-dark.svg" width="420" alt="Telegram-MTproto2.0">
     </picture>
   </a>
 </td>
 </tr>
 </table>
+
+<sub>Each one has a full write-up (how it works, the tradeoffs, what broke, and measured results) at <a href="https://srivatsa-kamballa.vercel.app/projects">srivatsa-kamballa.vercel.app/projects</a>.</sub>
 
 </div>
 
