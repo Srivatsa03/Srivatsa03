@@ -148,17 +148,6 @@ Hi, I'm **Srivatsa Kamballa**. I build the unglamorous half of software: the pip
 </tr>
 </table>
 
-<sub>
-
-| project | what it is | stack |
-|---|---|---|
-| **[rag-redteam](https://github.com/Srivatsa03/rag-redteam)** | red-teams RAG pipelines for injection, leakage, and smuggling; CLI + CI gate | `Python` `LLM Security` `PyPI` |
-| **[kubemend](https://github.com/Srivatsa03/kubemend)** | Kubernetes remediation agent whose only write surface is a git commit | `Python` `Kubernetes` `GitOps` |
-| **[ECI Pipeline](https://github.com/Srivatsa03/ECI-Pipeline)** | DeltaRAG + Graph-RAG turning 10 live CVE feeds into evidence-backed risk tickets | `FastAPI` `pgvector` `AWS` |
-| **[DevSecOps on EKS](https://github.com/Srivatsa03/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project)** | 8-microservice platform, Jenkins + ArgoCD, Trivy/SonarQube gates | `AWS EKS` `Terraform` `ArgoCD` |
-
-</sub>
-
 </div>
 
 ---
