@@ -33,7 +33,7 @@ $ cat about.txt
 
 Hi, I'm **Srivatsa Kamballa**. I build the unglamorous half of software: the pipelines, the infrastructure, and the AI systems that have to keep working after the demo crowd goes home. Most of what I do lives in the gap between "it runs on my machine" and "it survives production at 3am."
 
-- Currently building **[rag-redteam](https://github.com/Srivatsa03/rag-redteam)**, **[kubemend](https://github.com/Srivatsa03/kubemend)**, and **[minja-repro](https://github.com/Srivatsa03/minja-repro)** (reimplementing a no-code LLM-agent attack paper)
+- Currently building **[rag-redteam](https://github.com/Srivatsa03/rag-redteam)**, **[mcp-snitch](https://github.com/Srivatsa03/mcp-snitch)** (session-level MCP attack detection), and **[minja-repro](https://github.com/Srivatsa03/minja-repro)** (reimplementing a no-code LLM-agent attack paper)
 - Portfolio: **[srivatsa-kamballa.vercel.app](https://srivatsa-kamballa.vercel.app)**
 - MS Computer Science **@ University of Illinois Chicago** (GPA 3.88)
 - Open to full-time **Software**, **Platform / Infrastructure**, and **AI Engineering** roles across the US
