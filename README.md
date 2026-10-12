@@ -216,7 +216,7 @@ Hi, I'm **Srivatsa Kamballa**. I build the unglamorous half of software: the pip
 
 ## `~/` open source
 
-Those repos that look like forks of **LiteLLM**, **LlamaIndex**, **Pydantic**, and **Haystack**? That's where I actually fixed things. **10 merged, 4 open** so far.
+Those repos that look like forks of **LiteLLM**, **LlamaIndex**, **Pydantic**, and **Haystack**? That's where I actually fixed things. **10 merged, 5 open** so far.
 
 - **[LiteLLM](https://github.com/BerriAI/litellm/pull/31725)** (57k star): shipped time-based off-peak pricing in the cost engine, a backward-compatible feature on a core billing path. Caught an equal-ended window silently billing standard rates around the clock, and escalated the schema to maintainers rather than guess. *PR #31725, +1,039/-25, merged.*
 - **[LiteLLM](https://github.com/BerriAI/litellm/pull/37407)** (57k star): fixed double-billing when cached and image tokens overlapped on multimodal requests. *PR #37407, merged.*
@@ -225,7 +225,7 @@ Those repos that look like forks of **LiteLLM**, **LlamaIndex**, **Pydantic**, a
 - **[LiteLLM](https://github.com/BerriAI/litellm/pull/30764)** (57k star): a masker leaked short secrets (8 chars or fewer) into logs and the admin UI. *PR #30764, merged.*
 - **[Haystack](https://github.com/deepset-ai/haystack/pull/11670)** (26k star): silenced noisy ERROR logs on empty inputs, plus authored the OpenSearch and Elasticsearch SQL-retriever docs. *PR #11670, #11543, #11494, merged.*
 
-Plus the 10x embedding-pricing fix (#29693), a None-metadata crash fix in LlamaIndex (#22773), and 4 open PRs across **LiteLLM**, **DSPy**, and **[instructor](https://github.com/567-labs/instructor/pull/2673)** (an SSRF fix that rejects IPv6 transition addresses embedding private IPv4).
+Plus the 10x embedding-pricing fix (#29693), a None-metadata crash fix in LlamaIndex (#22773), and 5 open PRs across **LiteLLM**, **DSPy**, and **[instructor](https://github.com/567-labs/instructor/pull/2673)** (an SSRF fix that rejects IPv6 transition addresses embedding private IPv4), including **[per-team token budgets](https://github.com/BerriAI/litellm/pull/45970)** for the LiteLLM proxy, a feature built to mirror its dollar budgets.
 
 ---
 
