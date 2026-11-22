@@ -2,8 +2,19 @@
   "_comment": "Featured repos, in README order. Stars/forks/language come live from the API on every run; the description here overrides the repo's GitHub description.",
   "projects": [
     {
+      "repo": "psbayes-artifact",
+      "title": "PSBayes (ICSE 2027)",
+      "language": "Python",
+      "description": "Artifact for my first-author paper, accepted at ICSE 2027: a per-seed Bayesian estimator of the risk left in a fuzzing campaign, with the raw FuzzBench data and notebook."
+    },
+    {
       "repo": "rag-redteam",
       "description": "Red-teams RAG pipelines for the attacks eval frameworks miss: indirect prompt injection, source-document leakage, and cross-document smuggling. Runs as a CLI and a CI gate."
+    },
+    {
+      "repo": "smcp-gateway",
+      "language": "Python",
+      "description": "Reference implementation of the SMCP paper: a security gateway for MCP tool calls. Real LLM agents' successful attacks fell from 39 of 105 to 0."
     },
     {
       "repo": "minja-repro",

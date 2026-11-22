@@ -10,7 +10,7 @@
 
 <!-- NAME / TAGLINE - animated typing -->
 <a href="https://github.com/Srivatsa03">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=580&lines=Srivatsa+Kamballa;Platform+%2B+AI+Engineer;10+merged+open-source+PRs;AWS+Certified+Solutions+Architect" alt="typing banner">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=39D353&center=true&vCenter=true&width=580&lines=Srivatsa+Kamballa;Platform+%2B+AI+Engineer;First-author+paper+at+ICSE+2027;10+merged+open-source+PRs;AWS+Certified+Solutions+Architect" alt="typing banner">
 </a>
 
 <br>
@@ -33,6 +33,7 @@ $ cat about.txt
 
 Hi, I'm **Srivatsa Kamballa**. I build the unglamorous half of software: the pipelines, the infrastructure, and the AI systems that have to keep working after the demo crowd goes home. Most of what I do lives in the gap between "it runs on my machine" and "it survives production at 3am."
 
+- First-author paper **accepted at ICSE 2027**: *A Bayesian Approach to Estimating Residual Risk of Fuzzing* ([artifact](https://github.com/Srivatsa03/psbayes-artifact), [write-up](https://srivatsa-kamballa.vercel.app/projects/psbayes))
 - Currently building **[rag-redteam](https://github.com/Srivatsa03/rag-redteam)**, **[mcp-snitch](https://github.com/Srivatsa03/mcp-snitch)** (session-level MCP attack detection), and **[minja-repro](https://github.com/Srivatsa03/minja-repro)** (reimplementing a no-code LLM-agent attack paper)
 - Portfolio: **[srivatsa-kamballa.vercel.app](https://srivatsa-kamballa.vercel.app)**
 - MS Computer Science **@ University of Illinois Chicago** (GPA 3.88)
@@ -108,11 +109,31 @@ Hi, I'm **Srivatsa Kamballa**. I build the unglamorous half of software: the pip
 <table>
 <tr>
 <td>
+  <a href="https://github.com/Srivatsa03/psbayes-artifact">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-psbayes-artifact-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/card-psbayes-artifact-light.svg">
+      <img src="assets/card-psbayes-artifact-dark.svg" width="420" alt="PSBayes (ICSE 2027)">
+    </picture>
+  </a>
+</td>
+<td>
   <a href="https://github.com/Srivatsa03/rag-redteam">
     <picture>
       <source media="(prefers-color-scheme: dark)"  srcset="assets/card-rag-redteam-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/card-rag-redteam-light.svg">
       <img src="assets/card-rag-redteam-dark.svg" width="420" alt="rag-redteam">
+    </picture>
+  </a>
+</td>
+</tr>
+<tr>
+<td>
+  <a href="https://github.com/Srivatsa03/smcp-gateway">
+    <picture>
+      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-smcp-gateway-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/card-smcp-gateway-light.svg">
+      <img src="assets/card-smcp-gateway-dark.svg" width="420" alt="smcp-gateway">
     </picture>
   </a>
 </td>
@@ -216,7 +237,7 @@ Hi, I'm **Srivatsa Kamballa**. I build the unglamorous half of software: the pip
 
 ## `~/` open source
 
-Those repos that look like forks of **LiteLLM**, **LlamaIndex**, **Pydantic**, and **Haystack**? That's where I actually fixed things. **10 merged, 5 open** so far.
+Those repos that look like forks of **LiteLLM**, **LlamaIndex**, **Pydantic**, and **Haystack**? That's where I actually fixed things. **10 merged, 4 open** so far.
 
 - **[LiteLLM](https://github.com/BerriAI/litellm/pull/31725)** (57k star): shipped time-based off-peak pricing in the cost engine, a backward-compatible feature on a core billing path. Caught an equal-ended window silently billing standard rates around the clock, and escalated the schema to maintainers rather than guess. *PR #31725, +1,039/-25, merged.*
 - **[LiteLLM](https://github.com/BerriAI/litellm/pull/37407)** (57k star): fixed double-billing when cached and image tokens overlapped on multimodal requests. *PR #37407, merged.*
@@ -225,7 +246,7 @@ Those repos that look like forks of **LiteLLM**, **LlamaIndex**, **Pydantic**, a
 - **[LiteLLM](https://github.com/BerriAI/litellm/pull/30764)** (57k star): a masker leaked short secrets (8 chars or fewer) into logs and the admin UI. *PR #30764, merged.*
 - **[Haystack](https://github.com/deepset-ai/haystack/pull/11670)** (26k star): silenced noisy ERROR logs on empty inputs, plus authored the OpenSearch and Elasticsearch SQL-retriever docs. *PR #11670, #11543, #11494, merged.*
 
-Plus the 10x embedding-pricing fix (#29693), a None-metadata crash fix in LlamaIndex (#22773), and 5 open PRs across **LiteLLM**, **DSPy**, and **[instructor](https://github.com/567-labs/instructor/pull/2673)** (an SSRF fix that rejects IPv6 transition addresses embedding private IPv4), including **[per-team token budgets](https://github.com/BerriAI/litellm/pull/45970)** for the LiteLLM proxy, a feature built to mirror its dollar budgets.
+Plus the 10x embedding-pricing fix (#29693), a None-metadata crash fix in LlamaIndex (#22773), and 4 open PRs across **LiteLLM** and **DSPy**, including **[per-team token budgets](https://github.com/BerriAI/litellm/pull/45970)** for the LiteLLM proxy, a feature built to mirror its dollar budgets.
 
 ---
 
